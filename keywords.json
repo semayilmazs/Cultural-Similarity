@@ -1,0 +1,195 @@
+{
+  "project_config": {
+    "description": "Google Trends Country Clustering - Keyword Hierarchy",
+    "total_categories": 7,
+    "version": "1.0"
+  },
+  "categories": [
+    {
+      "category_name": "FINANCE",
+      "sub_groups": [
+        {
+          "group_name": "Cryptocurrency",
+          "queries": [
+            {"label": "Bitcoin", "topic_id": "/m/05p0rrx"},
+            {"label": "Ethereum", "topic_id": "/m/12345_placeholder"},
+            {"label": "Crypto Wallet", "topic_id": "..."}
+          ]
+        },
+        {
+          "group_name": "Real Estate",
+          "queries": [
+             {"label": "Real Estate", "topic_id": "..."},
+             {"label": "Mortgage", "topic_id": "..."},
+             {"label": "Housing Market", "topic_id": "..."}
+          ]
+        },
+        {
+          "group_name": "Inflation",
+          "queries": [
+             {"label": "Inflation", "topic_id": "..."},
+             {"label": "Cost of Living", "topic_id": "..."},
+             {"label": "Price Hike", "topic_id": "..."}
+          ]
+        },
+        {
+          "group_name": "Recession",
+          "queries": [
+             {"label": "Recession", "topic_id": "..."},
+             {"label": "Economic Crisis", "topic_id": "..."}
+          ]
+        },
+        {
+          "group_name": "Interest Rate",
+          "queries": [
+             {"label": "Interest Rate", "topic_id": "..."},
+             {"label": "Central Bank", "topic_id": "..."}
+          ]
+        }
+      ]
+    },
+    {
+      "category_name": "SOCIAL",
+      "sub_groups": [
+        {
+          "group_name": "Immigration",
+          "queries": [
+            {"label": "Immigration", "topic_id": "..."},
+            {"label": "Visa", "topic_id": "..."},
+            {"label": "Refugee", "topic_id": "..."}
+          ]
+        },
+        {
+          "group_name": "Remote Work",
+          "queries": [
+            {"label": "Remote Work", "topic_id": "..."},
+            {"label": "Digital Nomad", "topic_id": "..."},
+            {"label": "Freelance", "topic_id": "..."}
+          ]
+        },
+        {
+          "group_name": "Corruption",
+          "queries": [
+             {"label": "Corruption", "topic_id": "..."},
+             {"label": "Bribery", "topic_id": "..."}
+          ]
+        },
+        {
+          "group_name": "LGBTQ Rights",
+          "queries": [
+             {"label": "LGBT Social Movements", "topic_id": "..."},
+             {"label": "Pride Month", "topic_id": "..."}
+          ]
+        }
+      ]
+    },
+    {
+      "category_name": "ENVIRONMENT",
+      "sub_groups": [
+        {
+          "group_name": "Climate Change",
+          "queries": [
+             {"label": "Global Warming", "topic_id": "..."},
+             {"label": "Carbon Footprint", "topic_id": "..."}
+          ]
+        },
+        {
+          "group_name": "Electric Vehicle",
+          "queries": [
+             {"label": "Electric Car", "topic_id": "..."},
+             {"label": "Tesla", "topic_id": "..."},
+             {"label": "Charging Station", "topic_id": "..."}
+          ]
+        },
+        {
+          "group_name": "Vegan",
+          "queries": [
+             {"label": "Veganism", "topic_id": "..."},
+             {"label": "Plant Based Diet", "topic_id": "..."}
+          ]
+        }
+      ]
+    },
+    {
+      "category_name": "TECH",
+      "sub_groups": [
+        {
+          "group_name": "Artificial Intelligence",
+          "queries": [
+             {"label": "Artificial Intelligence", "topic_id": "..."},
+             {"label": "Machine Learning", "topic_id": "..."},
+             {"label": "ChatGPT", "topic_id": "..."}
+          ]
+        },
+        {
+          "group_name": "Cybersecurity",
+          "queries": [
+             {"label": "Computer Security", "topic_id": "..."},
+             {"label": "Hacking", "topic_id": "..."}
+          ]
+        },
+        {
+          "group_name": "Blockchain",
+          "queries": [
+             {"label": "Blockchain", "topic_id": "..."},
+             {"label": "DeFi", "topic_id": "..."}
+          ]
+        }
+      ]
+    },
+    {
+      "category_name": "ENTERTAINMENT",
+      "sub_groups": [
+        {
+          "group_name": "Netflix",
+          "queries": [
+             {"label": "Netflix", "topic_id": "..."},
+             {"label": "Streaming Service", "topic_id": "..."}
+          ]
+        },
+        {
+          "group_name": "TikTok",
+          "queries": [
+             {"label": "TikTok", "topic_id": "..."},
+             {"label": "Reels", "topic_id": "..."}
+          ]
+        }
+      ]
+    },
+    {
+      "category_name": "HEALTH",
+      "sub_groups": [
+        {
+          "group_name": "Depression",
+          "queries": [
+             {"label": "Depression", "topic_id": "..."},
+             {"label": "Anxiety Disorder", "topic_id": "..."},
+             {"label": "Mental Health", "topic_id": "..."},
+             {"label": "Psychotherapy", "topic_id": "..."}
+          ]
+        },
+        {
+          "group_name": "Healthcare",
+          "queries": [
+             {"label": "Health Care", "topic_id": "..."},
+             {"label": "Hospital", "topic_id": "..."}
+          ]
+        }
+      ]
+    },
+    {
+      "category_name": "SPORTS",
+      "sub_groups": [
+        {
+          "group_name": "Bodybuilding",
+          "queries": [
+             {"label": "Bodybuilding", "topic_id": "..."},
+             {"label": "Gym", "topic_id": "..."},
+             {"label": "Protein Supplement", "topic_id": "..."}
+          ]
+        }
+      ]
+    }
+  ]
+}
+
