@@ -1,0 +1,1009 @@
+{
+  "project_config": {
+    "description": "Google Trends Country Clustering - Keyword Hierarchy",
+    "total_categories": 7,
+    "version": "1.0"
+  },
+  "categories": [
+    {
+      "category_name": "FINANCE",
+      "sub_groups": [
+        {
+          "group_name": "Cryptocurrency",
+          "queries": [
+            {
+              "label": "Bitcoin",
+              "topic_id": "/m/05p0rrx"
+            },
+            {
+              "label": "Ethereum",
+              "topic_id": "/m/12345_placeholder"
+            },
+            {
+              "label": "Crypto Wallet",
+              "topic_id": "/g/11tskkw5c9"
+            },
+            {
+              "label": "Memecoin",
+              "topic_id": "/g/11sfdkgmfn"
+            },
+            {
+              "label": "Binance",
+              "topic_id": "/g/11hcz1r4wl"
+            },
+            {
+              "label": "Web3",
+              "topic_id": "/g/11pcs9ny8w"
+            }
+          ]
+        },
+        {
+          "group_name": "Real Estate",
+          "queries": [
+            {
+              "label": "Real Estate",
+              "topic_id": "/g/11bw1zmnts"
+            },
+            {
+              "label": "Mortgage",
+              "topic_id": "/m/0273t5w"
+            },
+            {
+              "label": "Housing Market",
+              "topic_id": "/g/1234z6p9"
+            },
+            {
+              "label": "Property Tax",
+              "topic_id": "/m/020shm"
+            },
+            {
+              "label": "Housing Bubble",
+              "topic_id": "/g/11gt__kf44"
+            }
+          ]
+        },
+        {
+          "group_name": "Inflation",
+          "queries": [
+            {
+              "label": "Inflation",
+              "topic_id": "/m/09jx2"
+            },
+            {
+              "label": "Cost of Living",
+              "topic_id": "/m/01fss9"
+            },
+            {
+              "label": "Price Hike",
+              "topic_id": "/g/11mcmf67yl"
+            },
+            {
+              "label": "Shrinkflation",
+              "topic_id": "/m/010w1kk1"
+            }
+          ]
+        },
+        {
+          "group_name": "Recession",
+          "queries": [
+            {
+              "label": "Recession",
+              "topic_id": "/m/06bmj"
+            },
+            {
+              "label": "Recession 2025",
+              "topic_id": "/g/11mrqfmb3k"
+            },
+            {
+              "label": "Layoff",
+              "topic_id": "/m/02jnsq"
+            },
+            {
+              "label": "Job Cuts",
+              "topic_id": "/g/11vyhs52bj"
+            },
+            {
+              "label": "Economic Crisis",
+              "topic_id": "/g/1211cg58"
+            }
+          ]
+        },
+        {
+          "group_name": "Interest Rate",
+          "queries": [
+            {
+              "label": "Interest Rate",
+              "topic_id": "/m/04n7dpf"
+            },
+            {
+              "label": "Mortgage Rate",
+              "topic_id": "/g/11fb0vw2fn"
+            },
+            {
+              "label": "Credit Card Debt",
+              "topic_id": "/m/05457c"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category_name": "LUXURY & STATUS",
+      "sub_groups": [
+        {
+          "group_name": "Luxury Fashion & Accessories",
+          "queries": [
+            {
+              "label": "Hermès Birkin",
+              "topic_id": "/g/11y119nb71"
+            },
+            {
+              "label": "Rolex",
+              "topic_id": "/g/1ymzxwzdh"
+            },
+            {
+              "label": "Louis Vuitton",
+              "topic_id": "/g/1hd_npv62"
+            },
+            {
+              "label": "Designer Bag",
+              "topic_id": "/g/11y97_pvw8"
+            },
+            {
+              "label": "Patek Philippe",
+              "topic_id": "/m/0_t06w0"
+            },
+            {
+              "label": "Louboutin",
+              "topic_id": "/g/1hhcjnjk8"
+            }
+          ]
+        },
+        {
+          "group_name": "Cosmetic & Aesthetic Surgery",
+          "queries": [
+            {
+              "label": "Plastic Surgery",
+              "topic_id": "/m/03cvdr8"
+            },
+            {
+              "label": "Botox",
+              "topic_id": "/g/11sx278r80"
+            },
+            {
+              "label": "Brazilian Butt Lift",
+              "topic_id": "/m/076ccs"
+            },
+            {
+              "label": "Hair Transplant",
+              "topic_id": "/m/08bdb1"
+            },
+            {
+              "label": "Eyelid Surgery (Blepharoplasty)",
+              "topic_id": "/m/06vthy"
+            },
+            {
+              "label": "Rhinoplasty (Nose Job)",
+              "topic_id": "/g/11xdtrjhz"
+            },
+            {
+              "label": "Liposuction",
+              "topic_id": "/m/0bk99"
+            },
+            {
+              "label": "Tummy Tuck (Abdominoplasty)",
+              "topic_id": "/m/01_mbc"
+            },
+            {
+              "label": "Breast Augmentation",
+              "topic_id": "/m/0g54q10"
+            },
+            {
+              "label": "Neck Lift",
+              "topic_id": "/g/11y4s2g9zc"
+            },
+            {
+              "label": "Filler",
+              "topic_id": "/g/11sx270hw0"
+            }
+          ]
+        },
+        {
+          "group_name": "Supercar & Hypercar",
+          "queries": [
+            {
+              "label": "Lamborghini",
+              "topic_id": "/m/0h5x4j3"
+            },
+            {
+              "label": "Ferrari",
+              "topic_id": "/g/11bc6pz4wc"
+            },
+            {
+              "label": "Bugatti",
+              "topic_id": "/g/11cm999bwp"
+            },
+            {
+              "label": "Porsche 911",
+              "topic_id": "/g/11f4pp7gnm"
+            }
+          ]
+        },
+        {
+          "group_name": "Private Jet & Yacht",
+          "queries": [
+            {
+              "label": "Private Jet",
+              "topic_id": "/g/11pb1mb808"
+            },
+            {
+              "label": "Superyacht",
+              "topic_id": "/m/09sdbh"
+            },
+            {
+              "label": "Gulfstream",
+              "topic_id": "/g/11bc5nt74w"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category_name": "CRIME & VIOLENCE",
+      "sub_groups": [
+        {
+          "group_name": "Gun Violence & Firearms",
+          "queries": [
+            {
+              "label": "Gun Violence",
+              "topic_id": "/m/026gp6r"
+            },
+            {
+              "label": "School Shooting",
+              "topic_id": "/m/0g7cg"
+            },
+            {
+              "label": "Open Carry",
+              "topic_id": "/m/0dhc24"
+            },
+            {
+              "label": "Gun Control",
+              "topic_id": "/g/11bwcyffr7"
+            },
+            {
+              "label": "Concealed Carry",
+              "topic_id": "/m/0b_zn7s"
+            }
+          ]
+        },
+        {
+          "group_name": "Organized Crime & Gangs",
+          "queries": [
+            {
+              "label": "Cartel",
+              "topic_id": "/m/01n5jq"
+            },
+            {
+              "label": "Mafia",
+              "topic_id": "/g/11c6tz417w"
+            },
+            {
+              "label": "Gang Violence",
+              "topic_id": "/m/01y_qq"
+            }
+          ]
+        },
+        {
+          "group_name": "Sexual Violence & Harassment",
+          "queries": [
+            {
+              "label": "MeToo",
+              "topic_id": "/g/11c0xsqchh"
+            },
+            {
+              "label": "Sexual Assault",
+              "topic_id": "/m/01fzl3"
+            },
+            {
+              "label": "Domestic Violence",
+              "topic_id": "/m/02gr_"
+            },
+            {
+              "label": "Femicide",
+              "topic_id": "/m/05nbcg"
+            },
+            {
+              "label": "Stalking",
+              "topic_id": "/m/01s940"
+            },
+            {
+              "label": "Sex Trafficking",
+              "topic_id": "/m/0130fmqz"
+            }
+          ]
+        },
+        {
+          "group_name": "Cybercrime & Scams",
+          "queries": [
+            {
+              "label": "Phishing",
+              "topic_id": "/m/027b9k"
+            },
+            {
+              "label": "Identity Theft",
+              "topic_id": "/m/018npy"
+            },
+            {
+              "label": "Ransomware",
+              "topic_id": "/m/0657nv"
+            },
+            {
+              "label": "Dark Web Markets",
+              "topic_id": "/g/11nyxr7hxv"
+            },
+            {
+              "label": "Online Fraud",
+              "topic_id": "/g/11c55s6k2t"
+            },
+            {
+              "label": "Crypto Scam",
+              "topic_id": "/g/11vz2cz87d"
+            }
+          ]
+        },
+        {
+          "group_name": "Violent Crime",
+          "queries": [
+            {
+              "label": "Homicide",
+              "topic_id": "/m/0x2fg"
+            },
+            {
+              "label": "Assault",
+              "topic_id": "/g/121hdpdf"
+            },
+            {
+              "label": "Kidnapping",
+              "topic_id": "/m/016pjk"
+            },
+            {
+              "label": "Serial Killer",
+              "topic_id": "/m/0bq3x"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category_name": "SOCIAL",
+      "sub_groups": [
+        {
+          "group_name": "Immigration",
+          "queries": [
+            {
+              "label": "Immigration",
+              "topic_id": "/m/0cbx95"
+            },
+            {
+              "label": "Asylum Seeker",
+              "topic_id": "/g/122t17dp"
+            },
+            {
+              "label": "Deportation",
+              "topic_id": "/m/025bfq"
+            },
+            {
+              "label": "Refugee",
+              "topic_id": "/m/0ccld"
+            }
+          ]
+        },
+        {
+          "group_name": "Remote Work",
+          "queries": [
+            {
+              "label": "Remote Work",
+              "topic_id": "/m/014xsg"
+            },
+            {
+              "label": "Digital Nomad",
+              "topic_id": "/m/06_wrtv"
+            },
+            {
+              "label": "Work From Anywhere",
+              "topic_id": "/g/11c1np3rvg"
+            },
+            {
+              "label": "Freelance",
+              "topic_id": "/m/02g0j0"
+            }
+          ]
+        },
+        {
+          "group_name": "Corruption",
+          "queries": [
+            {
+              "label": "Corruption",
+              "topic_id": "/m/09pngm"
+            },
+            {
+              "label": "Offshore Account",
+              "topic_id": "/g/11qpk2v0pq"
+            },
+            {
+              "label": "Bribery",
+              "topic_id": "/m/01mq8p"
+            }
+          ]
+        },
+        {
+          "group_name": "Dating Culture & Hook-up Apps",
+          "queries": [
+            {
+              "label": "Tinder",
+              "topic_id": "/m/03ctrlg"
+            },
+            {
+              "label": "Hinge",
+              "topic_id": "/g/122919_0"
+            },
+            {
+              "label": "Situationship",
+              "topic_id": "/g/11vpwmz6vg"
+            },
+            {
+              "label": "aşk bombardımanı",
+              "topic_id": "/m/02wpj1"
+            }
+          ]
+        },
+        {
+          "group_name": "LGBTQ Rights",
+          "queries": [
+            {
+              "label": "LGBT Social Movements",
+              "topic_id": "/g/11bzx7cv2m"
+            },
+            {
+              "label": "Trans Rights",
+              "topic_id": "/g/11m6_4hjpt"
+            },
+            {
+              "label": "Gender Affirming Care",
+              "topic_id": "/g/11vm2_r4hw"
+            },
+            {
+              "label": "Pride Month",
+              "topic_id": "/g/11sg2tlrf0"
+            }
+          ]
+        },
+        {
+          "group_name": "Vegan",
+          "queries": [
+            {
+              "label": "Veganism",
+              "topic_id": "/m/07_hy"
+            },
+            {
+              "label": "Plant Based Diet",
+              "topic_id": "/g/11cknh9qp1"
+            },
+            {
+              "label": "Tofu",
+              "topic_id": "/g/11sw_tmz6z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category_name": "ENVIRONMENT",
+      "sub_groups": [
+        {
+          "group_name": "Climate Change",
+          "queries": [
+            {
+              "label": "Global Warming",
+              "topic_id": "/m/0d063v"
+            },
+            {
+              "label": "Carbon Footprint",
+              "topic_id": "/m/06_7xx"
+            },
+            {
+              "label": "Carbon Emissions",
+              "topic_id": "/g/11lyxggfjt"
+            },
+            {
+              "label": "Greenhouse Effect",
+              "topic_id": "/m/0380q"
+            },
+            {
+              "label": "Climate Policy",
+              "topic_id": "/g/11c5g9ql2b"
+            }
+          ]
+        },
+        {
+          "group_name": "Energy & Sustainability",
+          "queries": [
+            {
+              "label": "Electric Car",
+              "topic_id": "/g/11hdq9v_sn"
+            },
+            {
+              "label": "Tesla",
+              "topic_id": "/g/11bc6n2sw6"
+            },
+            {
+              "label": "Energy Efficiency",
+              "topic_id": "/m/02rz0ly"
+            },
+            {
+              "label": "Green Technology",
+              "topic_id": "/g/11x1ng30y"
+            },
+            {
+              "label": "Renewable Energy",
+              "topic_id": "/m/06fhs"
+            },
+            {
+              "label": "Solar Power",
+              "topic_id": "/m/06xbd"
+            },
+            {
+              "label": "Wind Energy",
+              "topic_id": "/m/01phdl"
+            },
+            {
+              "label": "Hydropower",
+              "topic_id": "/m/03nfl"
+            },
+            {
+              "label": "Nuclear Energy",
+              "topic_id": "/m/05k97"
+            },
+            {
+              "label": "Charging Station",
+              "topic_id": "/m/03bxwvx"
+            }
+          ]
+        },
+        {
+          "group_name": "Pollution & Waste",
+          "queries": [
+            {
+              "label": "Air Pollution",
+              "topic_id": "/m/0dc7h"
+            },
+            {
+              "label": "Water Pollution",
+              "topic_id": "/m/01tbgl"
+            },
+            {
+              "label": "Soil Pollution",
+              "topic_id": "/m/0br5fz"
+            },
+            {
+              "label": "Plastic Pollution",
+              "topic_id": "/m/0n5462l"
+            },
+            {
+              "label": "Industrial Waste",
+              "topic_id": "/g/122l3gtx"
+            },
+            {
+              "label": "Recycling",
+              "topic_id": "/m/0j6v7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category_name": "TECH",
+      "sub_groups": [
+        {
+          "group_name": "Artificial Intelligence",
+          "queries": [
+            {
+              "label": "Artificial Intelligence",
+              "topic_id": "/g/11l2lxvky5"
+            },
+            {
+              "label": "Machine Learning",
+              "topic_id": "/g/11f2sl5v8_"
+            },
+            {
+              "label": "ChatGPT",
+              "topic_id": "/g/11krp96r6b"
+            },
+            {
+              "label": "Grok",
+              "topic_id": "/m/03dk1"
+            },
+            {
+              "label": "Claude AI",
+              "topic_id": "/g/11kq5ghr35"
+            },
+            {
+              "label": "Gemini",
+              "topic_id": "/g/11ts49p01g"
+            },
+            {
+              "label": "DeepSeek",
+              "topic_id": "/g/11wvrb0s91"
+            },
+            {
+              "label": "Llama 3",
+              "topic_id": "/g/11y42_pgyp"
+            },
+            {
+              "label": "Prompt Engineering",
+              "topic_id": "/g/11p6kpgt_n"
+            }
+          ]
+        },
+        {
+          "group_name": "Cybersecurity",
+          "queries": [
+            {
+              "label": "Computer Security",
+              "topic_id": "/g/11j317gwf_"
+            },
+            {
+              "label": "Hacking",
+              "topic_id": "/g/11mw7nz8h_"
+            },
+            {
+              "label": "Zero Trust",
+              "topic_id": "/g/11kxqfzv4h"
+            },
+            {
+              "label": "Passkey",
+              "topic_id": "/g/11stj9b049"
+            },
+            {
+              "label": "Data Breach",
+              "topic_id": "/m/03c18t5"
+            },
+            {
+              "label": "VPN",
+              "topic_id": "/m/012t0g"
+            },
+            {
+              "label": "Privacy",
+              "topic_id": "/g/11q3qhxt3k"
+            }
+          ]
+        },
+        {
+          "group_name": "Quantum Computing",
+          "queries": [
+            {
+              "label": "Quantum Computer",
+              "topic_id": "/g/121fwt0w"
+            },
+            {
+              "label": "Google Willow",
+              "topic_id": "/g/11y3wdy4ms"
+            },
+            {
+              "label": "Quantum Supremacy",
+              "topic_id": "/g/11g9mhrln7"
+            }
+          ]
+        },
+        {
+          "group_name": "Humanoid Robots & Robotics",
+          "queries": [
+            {
+              "label": "Tesla Optimus",
+              "topic_id": "/g/11ymfb_9mq"
+            },
+            {
+              "label": "Figure 01",
+              "topic_id": "/g/11vl37x80d"
+            },
+            {
+              "label": "Boston Dynamics Atlas",
+              "topic_id": "/g/11rxv13nhy"
+            },
+            {
+              "label": "Humanoid Robot",
+              "topic_id": "/m/0cxdc"
+            },
+            {
+              "label": "Sex Robot",
+              "topic_id": "/g/11xzdtzm53"
+            }
+          ]
+        },
+        {
+          "group_name": "Brain-Computer Interface & Neural Tech",
+          "queries": [
+            {
+              "label": "Neuralink",
+              "topic_id": "/g/11dxl6v_ff"
+            },
+            {
+              "label": "Brain Implant",
+              "topic_id": "/m/064ctn"
+            },
+            {
+              "label": "Brain Chip",
+              "topic_id": "/g/11dx9fx89k"
+            },
+            {
+              "label": "BCI",
+              "topic_id": "/g/11bc6ldrb5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category_name": "ENTERTAINMENT",
+      "sub_groups": [
+        {
+          "group_name": "Binge Culture",
+          "queries": [
+            {
+              "label": "Netflix",
+              "topic_id": "/m/017rf_"
+            },
+            {
+              "label": "Disney Plus",
+              "topic_id": "/g/11f5bxylc0"
+            },
+            {
+              "label": "Pirated Movies",
+              "topic_id": "/g/11twnws_cc"
+            },
+            {
+              "label": "Streaming Service",
+              "topic_id": "/g/121hrbch"
+            }
+          ]
+        },
+        {
+          "group_name": "Short-form Video Addiction",
+          "queries": [
+            {
+              "label": "TikTok",
+              "topic_id": "/g/11f555cn8l"
+            },
+            {
+              "label": "Shorts",
+              "topic_id": "/g/11h79tp_8r"
+            },
+            {
+              "label": "Brain Rot",
+              "topic_id": "/g/11y55sf53l"
+            },
+            {
+              "label": "Reels",
+              "topic_id": "/g/11shd5x1t8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category_name": "HEALTH",
+      "sub_groups": [
+        {
+          "group_name": "Depression",
+          "queries": [
+            {
+              "label": "Depression",
+              "topic_id": "/m/02bft"
+            },
+            {
+              "label": "Anxiety Disorder",
+              "topic_id": "/m/0ftsr"
+            },
+            {
+              "label": "Mental Health",
+              "topic_id": "/m/03x69g"
+            },
+            {
+              "label": "Mental Disorder",
+              "topic_id": "/m/0cn9bm"
+            },
+            {
+              "label": "Mental Wellbeing",
+              "topic_id": "/g/11rc00sflx"
+            },
+            {
+              "label": "Psychotherapy",
+              "topic_id": "/m/06796"
+            },
+            {
+              "label": "Therapy",
+              "topic_id": "/g/11q4gczjq8"
+            }
+          ]
+        },
+        {
+          "group_name": "Healthcare",
+          "queries": [
+            {
+              "label": "Health Care",
+              "topic_id": "/g/11g6qlbmr4"
+            },
+            {
+              "label": "Hospital",
+              "topic_id": "/m/0hpnr"
+            },
+            {
+              "label": "Ozempic",
+              "topic_id": "/g/11sq21scf3"
+            },
+            {
+              "label": "GLP-1",
+              "topic_id": "/m/0dq3fd"
+            }
+          ]
+        },
+        {
+          "group_name": "Addiction & Substance Recovery",
+          "queries": [
+            {
+              "label": "Fentanyl Crisis",
+              "topic_id": "/g/11rbcdg93b"
+            },
+            {
+              "label": "Alcohol Free",
+              "topic_id": "/g/11j8qr8rbs"
+            },
+            {
+              "label": "Quit Vaping",
+              "topic_id": "/g/11v3xjch6h"
+            },
+            {
+              "label": "Porn Addiction",
+              "topic_id": "/g/11f3sfth4w"
+            },
+            {
+              "label": "Dopamine Detox",
+              "topic_id": "/g/11ww7k4dcq"
+            }
+          ]
+        },
+        {
+          "group_name": "Healthcare Access & Costs",
+          "queries": [
+            {
+              "label": "Medical Tourism",
+              "topic_id": "/m/0322db"
+            },
+            {
+              "label": "Healthcare Bankruptcy",
+              "topic_id": "/g/11mcz640x1"
+            },
+            {
+              "label": "Free Healthcare",
+              "topic_id": "/g/11f1rm29b8"
+            },
+            {
+              "label": "GoFundMe Medical",
+              "topic_id": "/g/11yg9d9k9g"
+            }
+          ]
+        },
+        {
+          "group_name": "Sleep Crisis",
+          "queries": [
+            {
+              "label": "Sleep Deprivation",
+              "topic_id": "/m/017tfz"
+            },
+            {
+              "label": "Magnesium Glycinate",
+              "topic_id": "/m/012llw50"
+            },
+            {
+              "label": "Oura Ring",
+              "topic_id": "/g/11xt0w58jz"
+            },
+            {
+              "label": "Sleep Divorce",
+              "topic_id": "/g/11kxnptn2h"
+            },
+            {
+              "label": "Mouth Taping",
+              "topic_id": "/g/11sc9wv6gj"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category_name": "SPORTS",
+      "sub_groups": [
+        {
+          "group_name": "Bodybuilding & Steroid Culture",
+          "queries": [
+            {
+              "label": "Trenbolone",
+              "topic_id": "/g/11dftk47yk"
+            },
+            {
+              "label": "Anavar",
+              "topic_id": "/g/11fd6dg5b5"
+            },
+            {
+              "label": "SARMs",
+              "topic_id": "/g/11qwv9wbx8"
+            },
+            {
+              "label": "bodybuilding",
+              "topic_id": "/m/01ddm"
+            },
+            {
+              "label": "weight lifting",
+              "topic_id": "/g/11kzq0jnkt"
+            }
+          ]
+        },
+        {
+          "group_name": "Female Fitness & Glute Trend",
+          "queries": [
+            {
+              "label": "Pilates",
+              "topic_id": "/m/02gy5l"
+            },
+            {
+              "label": "Chloe Ting",
+              "topic_id": "/g/11jt20l831"
+            },
+            {
+              "label": "Hip Thrust",
+              "topic_id": "/g/11h7_q3l6z"
+            },
+            {
+              "label": "Booty Workout",
+              "topic_id": "/g/11jp_j0m6d"
+            }
+          ]
+        },
+        {
+          "group_name": "Combat Sports & UFC",
+          "queries": [
+            {
+              "label": "UFC 300",
+              "topic_id": "/g/11bxdv_m8p"
+            },
+            {
+              "label": "Conor McGregor",
+              "topic_id": "/m/0rfgxy2"
+            },
+            {
+              "label": "Islam Makhachev",
+              "topic_id": "/g/11ww08lq0j"
+            },
+            {
+              "label": "Alex Pereira",
+              "topic_id": "/g/11vhqc7hb1"
+            }
+          ]
+        },
+        {
+          "group_name": "Formula 1 & Motorsport",
+          "queries": [
+            {
+              "label": "Formula 1",
+              "topic_id": "/m/02xz2"
+            },
+            {
+              "label": "Ferrari F1",
+              "topic_id": "/m/0179v6"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
