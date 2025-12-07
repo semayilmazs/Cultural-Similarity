@@ -90,10 +90,7 @@
               "label": "Recession",
               "topic_id": "/m/06bmj"
             },
-            {
-              "label": "Recession 2025",
-              "topic_id": "/g/11mrqfmb3k"
-            },
+            
             {
               "label": "Layoff",
               "topic_id": "/m/02jnsq"
@@ -437,7 +434,7 @@
           ]
         },
         {
-          "group_name": "Dating Culture & Hook-up Apps",
+          "group_name": "Dating Culture Apps",
           "queries": [
             {
               "label": "Tinder",
@@ -615,35 +612,7 @@
               "label": "Machine Learning",
               "topic_id": "/g/11f2sl5v8_"
             },
-            {
-              "label": "ChatGPT",
-              "topic_id": "/g/11krp96r6b"
-            },
-            {
-              "label": "Grok",
-              "topic_id": "/m/03dk1"
-            },
-            {
-              "label": "Claude AI",
-              "topic_id": "/g/11kq5ghr35"
-            },
-            {
-              "label": "Gemini",
-              "topic_id": "/g/11ts49p01g"
-            },
-            {
-              "label": "DeepSeek",
-              "topic_id": "/g/11wvrb0s91"
-            },
-            {
-              "label": "Llama 3",
-              "topic_id": "/g/11y42_pgyp"
-            },
-            {
-              "label": "Prompt Engineering",
-              "topic_id": "/g/11p6kpgt_n"
-            }
-          ]
+         ]
         },
         {
           "group_name": "Cybersecurity",
@@ -686,8 +655,8 @@
               "topic_id": "/g/121fwt0w"
             },
             {
-              "label": "Google Willow",
-              "topic_id": "/g/11y3wdy4ms"
+              "label": "qunatum computing",
+              "topic_id": "/m/069kd"
             },
             {
               "label": "Quantum Supremacy",
@@ -698,26 +667,12 @@
         {
           "group_name": "Humanoid Robots & Robotics",
           "queries": [
-            {
-              "label": "Tesla Optimus",
-              "topic_id": "/g/11ymfb_9mq"
-            },
-            {
-              "label": "Figure 01",
-              "topic_id": "/g/11vl37x80d"
-            },
-            {
-              "label": "Boston Dynamics Atlas",
-              "topic_id": "/g/11rxv13nhy"
-            },
+      
             {
               "label": "Humanoid Robot",
               "topic_id": "/m/0cxdc"
-            },
-            {
-              "label": "Sex Robot",
-              "topic_id": "/g/11xzdtzm53"
             }
+           
           ]
         },
         {
@@ -756,6 +711,10 @@
             {
               "label": "Disney Plus",
               "topic_id": "/g/11f5bxylc0"
+            },
+             {
+              "label": "youtube",
+              "topic_id": "/m/09jcvs"
             },
             {
               "label": "Pirated Movies",
@@ -970,10 +929,10 @@
           ]
         },
         {
-          "group_name": "Combat Sports & UFC",
+          "group_name": "Combat Sports",
           "queries": [
             {
-              "label": "UFC 300",
+              "label": "UFC",
               "topic_id": "/g/11bxdv_m8p"
             },
             {
