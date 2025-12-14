@@ -17,7 +17,7 @@
             },
             {
               "label": "Ethereum",
-              "topic_id": "/m/12345_placeholder"
+              "topic_id": "/m/0108bn2x"
             },
             {
               "label": "Crypto Wallet",
@@ -611,7 +611,7 @@
             {
               "label": "Machine Learning",
               "topic_id": "/g/11f2sl5v8_"
-            },
+            }
          ]
         },
         {
@@ -655,7 +655,7 @@
               "topic_id": "/g/121fwt0w"
             },
             {
-              "label": "qunatum computing",
+              "label": "quantum computing",
               "topic_id": "/m/069kd"
             },
             {
@@ -736,10 +736,6 @@
             {
               "label": "Shorts",
               "topic_id": "/g/11h79tp_8r"
-            },
-            {
-              "label": "Brain Rot",
-              "topic_id": "/g/11y55sf53l"
             },
             {
               "label": "Reels",
@@ -933,7 +929,7 @@
           "queries": [
             {
               "label": "UFC",
-              "topic_id": "/g/11bxdv_m8p"
+              "topic_id": "/m/01h7lh"
             },
             {
               "label": "Conor McGregor",
