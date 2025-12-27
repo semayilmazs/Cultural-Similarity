@@ -1,3 +1,5 @@
+GÜNCELLENECEK
+
 Project Summary (Clustering Pipeline)
 
 Data Preprocessing: Temiz veri seti oluşturuldu, düşük kapsamalı feature’lar elendi
