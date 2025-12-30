@@ -1,33 +1,81 @@
-GÜNCELLENECEK
+# Clustering-Related Methodology
 
-Project Summary (Clustering Pipeline)
+This document describes the clustering approaches implemented in the project, focusing on the logic and execution of `clustering.ipynb` and `cluster_umap_hdbscan.ipynb`.
 
-Data Preprocessing: Temiz veri seti oluşturuldu, düşük kapsamalı feature’lar elendi
+---
 
-Feature Selection: 178 → ~140+ feature, gürültü azaltıldı
+## 1. Index-Based Clustering (`clustering.ipynb`)
 
-Scaling Comparison: No / Robust / Standard / MinMax / Log+Std denendi
+This approach clusters countries using **pre-aggregated thematic indices** derived from Google Trends features.
 
-Best Scaling: RobustScaler (en yüksek silhouette)
+### Input
+- Country × index matrix  
+  (high-variance indices are preferred when available)
 
-Dimensionality Reduction: UMAP (40D) + PCA (%90 varyans)
+### Procedure
+1. **Preprocessing**
+   - Missing values are imputed using median values.
+   - Feature scaling is applied (StandardScaler by default; RobustScaler optional).
+   - Optional PCA can be used to stabilize variance and reduce noise.
 
-Algorithms Compared: K-Means, DBSCAN, HDBSCAN, Hierarchical, Spectral, GMM
+2. **Cluster Number Selection**
+   - KMeans is evaluated over a range of cluster counts.
+   - Silhouette score is used as the primary criterion for selecting the optimal number of clusters.
 
-Main Algorithm: K-Means (grid search ile optimize edildi)
+3. **Clustering**
+   - Final KMeans clustering is performed using the selected number of clusters.
+   - Agglomerative clustering may be applied as a structural comparison.
 
-Density-Based Methods: DBSCAN (grid search), HDBSCAN (auto cluster + outlier)
+4. **Interpretation**
+   - Cluster-wise z-scores are computed for each index.
+   - Dominant positive and negative indices are extracted to characterize each cluster.
 
-Hyperparameter Tuning: Silhouette score ile manuel grid search
+### Output
+- Country-level cluster assignments
+- Cluster z-score profiles
+- Summary of defining indices per cluster
 
-Evaluation Metrics: Silhouette Score, Davies–Bouldin Index
+---
 
-Stability Testing: Random subsample (10 run) + K-Fold style (Mean ± Std)
+## 2. UMAP + Density-Based Clustering (`cluster_umap_hdbscan.ipynb`)
 
-Pipeline: Scaling → Reduction → Clustering (reproducible)
+This approach identifies natural country groupings using **non-linear embedding and density-based clustering**, without assuming a fixed number of clusters.
 
-Visualization: t-SNE ile 2D cluster haritaları
+### Input
+- Labeled country-level time-series features
 
-Timeframe Analysis: 4 yıl / 2 yıl / 6 ay ayrı clustering
+### Procedure
+1. **Temporal Segmentation**
+   - Clustering is performed over multiple time windows (3 years, 2 years, 6 months).
+   - Countries with insufficient temporal coverage are excluded.
 
-Final Outcome: HDBSCAN + UMAP en tutarlı ve anlamlı cluster yapısını verdi
+2. **Aggregation & Scaling**
+   - Time-series values are aggregated per country using the median.
+   - Robust scaling is applied to reduce the influence of outliers.
+
+3. **Dimensionality Reduction**
+   - UMAP projects high-dimensional features into a low-dimensional space while preserving local structure.
+
+4. **Clustering**
+   - HDBSCAN detects clusters based on data density and labels low-density observations as noise.
+   - For comparison, KMeans is also applied on the UMAP embedding.
+
+5. **Evaluation**
+   - Cluster counts, noise ratios, and model parameters are recorded for each time window.
+
+### Output
+- Country-level cluster labels (HDBSCAN and KMeans-on-UMAP)
+- Noise and outlier identification
+- Run-level clustering summary across time windows
+
+---
+
+## Conceptual Distinction
+
+- **Index-Based Clustering**  
+  Emphasizes interpretability and controlled feature abstraction with a predefined number of clusters.
+
+- **UMAP + HDBSCAN Clustering**  
+  Emphasizes data-driven structure discovery, flexible cluster shapes, and explicit outlier detection.
+
+Together, these methods provide complementary perspectives on cross-country behavioral similarity.
