@@ -43,7 +43,7 @@ cluster_umap_hdbscan.ipynb: Advanced experimentation using UMAP for dimensionali
 
 **Key inputs:**
 - `data/raw/final_proje_dataset_CLEANED.csv`
-- `data/raw/keywords_FINAL_2025.json` (this notebook reads the JSON under `data/raw/`)
+- `data/raw/keywords_FINAL_2025.json`
 
 **Key output:**
 - `data/processed/labeled_time_series.csv`
@@ -72,7 +72,7 @@ cluster_umap_hdbscan.ipynb: Advanced experimentation using UMAP for dimensionali
 **Key outputs:**
 - `data/processed/clustering/k_report.csv`
 - `data/processed/clustering/country_clusters_kmeans.csv`
-- `data/processed/clustering/country_clusters_kmeans_plus_agglo.csv` (if hierarchical enabled)
+- `data/processed/clustering/country_clusters_kmeans_plus_agglo.csv`
 - `data/processed/clustering/cluster_profiles_zscores.csv`
 - `data/processed/clustering/cluster_summary_top_features.csv`
 
