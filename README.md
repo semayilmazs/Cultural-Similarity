@@ -78,7 +78,7 @@ cluster_umap_hdbscan.ipynb: Advanced experimentation using UMAP for dimensionali
 
 ---
 
-### 6) `cluster_umap_hdbscan.ipynb` (Alternative)
+### 6) `cluster_umap_hdbscan.ipynb` & `visualize.ipynb` (Alternative)
 **Goal:** Cluster countries after non-linear dimensionality reduction (UMAP) and density clustering (HDBSCAN). Runs multiple time windows:
 - 3 years (3y)
 - 2 years (2y)
@@ -90,6 +90,7 @@ cluster_umap_hdbscan.ipynb: Advanced experimentation using UMAP for dimensionali
 **Key output directory:**
 - `data/processed/clustering_umap_hdbscan/`
   - Per-window labels + `run_report.csv` summarizing parameters and results
+
 
 ---
 
