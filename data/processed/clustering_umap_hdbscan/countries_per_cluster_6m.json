@@ -1,0 +1,92 @@
+[
+  {
+    "cluster_kmeans_umap": 0,
+    "countries": [
+      "AR",
+      "BO",
+      "BR",
+      "CL",
+      "CO",
+      "EC",
+      "MX",
+      "PE",
+      "PT",
+      "TW",
+      "ZA"
+    ]
+  },
+  {
+    "cluster_kmeans_umap": 1,
+    "countries": [
+      "AE",
+      "AT",
+      "BE",
+      "CH",
+      "CZ",
+      "DK",
+      "FI",
+      "GR",
+      "HK",
+      "HU",
+      "IE",
+      "IL",
+      "IT",
+      "NL",
+      "NO",
+      "NZ",
+      "PL",
+      "RO",
+      "SE",
+      "SG",
+      "TH"
+    ]
+  },
+  {
+    "cluster_kmeans_umap": 2,
+    "countries": [
+      "BD",
+      "BG",
+      "EE",
+      "EG",
+      "GH",
+      "HR",
+      "ID",
+      "KE",
+      "LK",
+      "LT",
+      "LV",
+      "MA",
+      "MM",
+      "NG",
+      "PH",
+      "PK",
+      "RS",
+      "SA",
+      "SI",
+      "SK",
+      "TN",
+      "UA",
+      "UY",
+      "VE"
+    ]
+  },
+  {
+    "cluster_kmeans_umap": 3,
+    "countries": [
+      "AU",
+      "CA",
+      "DE",
+      "ES",
+      "FR",
+      "GB",
+      "IN",
+      "JP",
+      "KR",
+      "MY",
+      "RU",
+      "TR",
+      "US",
+      "VN"
+    ]
+  }
+]

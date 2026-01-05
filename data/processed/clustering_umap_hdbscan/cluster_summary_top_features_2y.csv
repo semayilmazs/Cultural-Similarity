@@ -1,0 +1,3 @@
+cluster,top_positive_features,top_negative_features,n_countries
+0,"passkey (3.58), bci (3.33), zero_trust (2.82), mortgage_rate (2.25), economic_crisis (0.97), greenhouse_effect (0.93), femicide (0.92), botox (0.90)","cartel (-0.17), interest_rate (-0.17), tiktok (-0.18), hospital (-0.23), mortgage (-0.24), pilates (-0.27), phishing (-0.28), vpn (-0.38)",61
+1,"medical_tourism (44.00), zero_trust (12.89), passkey (9.93), mouth_taping (5.33), identity_theft (4.07), humanoid_robot (3.89), superyacht (3.56), neuralink (3.44)","louis_vuitton (-0.13), mortgage (-0.17), bodybuilding (-0.21), pilates (-0.24), cartel (-0.26), tiktok (-0.30), tinder (-0.35), tesla (-0.41)",9

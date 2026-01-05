@@ -1,0 +1,4 @@
+,n_countries,n_features,hdbscan_clusters,hdbscan_noise,kmeans_best_k,kmeans_best_silhouette
+3y,70,107,2,0,2,0.6165100932121277
+2y,70,107,2,0,2,0.5361443758010864
+6m,70,107,3,0,4,0.4345431625843048

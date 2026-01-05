@@ -1,0 +1,3 @@
+cluster,top_positive_features,top_negative_features,n_countries
+0,"bci (2.26), mortgage_rate (1.84), filler (1.58), zero_trust (1.18), identity_theft (0.84), greenhouse_effect (0.80), neuralink (0.79), femicide (0.77)","mortgage (-0.16), pilates (-0.18), tesla (-0.18), louis_vuitton (-0.20), tiktok (-0.24), hospital (-0.26), phishing (-0.28), vpn (-0.41)",62
+1,"medical_tourism (41.62), zero_trust (7.62), neuralink (6.25), filler (5.62), identity_theft (4.22), humanoid_robot (3.88), sex_trafficking (3.25), digital_nomad (2.21)","binance (-0.16), veganism (-0.17), inflation (-0.18), mortgage (-0.23), cartel (-0.33), ethereum (-0.38), tesla (-0.52), tinder (-0.55)",8
